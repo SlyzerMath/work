@@ -1,0 +1,19 @@
+<html>
+<body align="center">
+	<h1> thank you for you time in helping us have a better vision of tomorrow </h1>
+you will be redirected in
+    <div id="counter">5</div>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("https://www.facebook.com/ICTSkillsDevelopment/");
+            }
+        }, 1000);
+    </script>
+
+	
+</body>
+</html>
